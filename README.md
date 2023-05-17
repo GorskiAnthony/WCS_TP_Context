@@ -8,6 +8,10 @@
 
 > Nous allons apprendre le hook `useContext` dans un exemple concret
 
+### 🏠 Homepage
+
+![Homepage](./docs/homepage.png)
+
 ## Install
 
 ```sh
