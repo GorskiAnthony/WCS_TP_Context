@@ -1,0 +1,144 @@
+{
+	"livres": [
+		{
+			"titre": "Harry Potter à l'école des sorciers",
+			"auteur": "J.K. Rowling",
+			"genre": "Fantasy",
+			"annee_parution": 1997,
+			"prix_euro": 12.99
+		},
+		{
+			"titre": "Harry Potter et la Chambre des secrets",
+			"auteur": "J.K. Rowling",
+			"genre": "Fantasy",
+			"annee_parution": 1998,
+			"prix_euro": 14.99
+		},
+		{
+			"titre": "Harry Potter et le Prisonnier d'Azkaban",
+			"auteur": "J.K. Rowling",
+			"genre": "Fantasy",
+			"annee_parution": 1999,
+			"prix_euro": 15.99
+		},
+		{
+			"titre": "Harry Potter et la Coupe de feu",
+			"auteur": "J.K. Rowling",
+			"genre": "Fantasy",
+			"annee_parution": 2000,
+			"prix_euro": 16.99
+		},
+		{
+			"titre": "Harry Potter et l'Ordre du phénix",
+			"auteur": "J.K. Rowling",
+			"genre": "Fantasy",
+			"annee_parution": 2003,
+			"prix_euro": 17.99
+		},
+		{
+			"titre": "Harry Potter et le Prince de sang-mêlé",
+			"auteur": "J.K. Rowling",
+			"genre": "Fantasy",
+			"annee_parution": 2005,
+			"prix_euro": 18.99
+		},
+		{
+			"titre": "Harry Potter et les Reliques de la Mort",
+			"auteur": "J.K. Rowling",
+			"genre": "Fantasy",
+			"annee_parution": 2007,
+			"prix_euro": 19.99
+		},
+		{
+			"titre": "Le Seigneur des Anneaux : La Communauté de l'anneau",
+			"auteur": "J.R.R. Tolkien",
+			"genre": "Fantasy",
+			"annee_parution": 1954,
+			"prix_euro": 13.99
+		},
+		{
+			"titre": "Le Seigneur des Anneaux : Les Deux Tours",
+			"auteur": "J.R.R. Tolkien",
+			"genre": "Fantasy",
+			"annee_parution": 1954,
+			"prix_euro": 13.99
+		},
+		{
+			"titre": "Le Seigneur des Anneaux : Le Retour du roi",
+			"auteur": "J.R.R. Tolkien",
+			"genre": "Fantasy",
+			"annee_parution": 1955,
+			"prix_euro": 14.99
+		},
+		{
+			"titre": "Les Chroniques de Narnia : Le Prince Caspian",
+			"auteur": "C.S. Lewis",
+			"genre": "Fantasy",
+			"annee_parution": 1951,
+			"prix_euro": 12.99
+		},
+		{
+			"titre": "Les Chroniques de Narnia : L'Odyssée du passeur d'aurore",
+			"auteur": "C.S. Lewis",
+			"genre": "Fantasy",
+			"annee_parution": 1952,
+			"prix_euro": 12.99
+		},
+		{
+			"titre": "Les Chroniques de Narnia : Le Fauteuil d'argent",
+			"auteur": "C.S. Lewis",
+			"genre": "Fantasy",
+			"annee_parution": 1953,
+			"prix_euro": 12.99
+		},
+		{
+			"titre": "Les Chroniques de Narnia : Le Cheval et son écuyer",
+			"auteur": "C.S. Lewis",
+			"genre": "Fantasy",
+			"annee_parution": 1954,
+			"prix_euro": 12.99
+		},
+		{
+			"titre": "Les Chroniques de Narnia : Le Neveu du magicien",
+			"auteur": "C.S. Lewis",
+			"genre": "Fantasy",
+			"annee_parution": 1955,
+			"prix_euro": 12.99
+		},
+		{
+			"titre": "Les Chroniques de Narnia : La Dernière Bataille",
+			"auteur": "C.S. Lewis",
+			"genre": "Fantasy",
+			"annee_parution": 1956,
+			"prix_euro": 12.99
+		},
+		{
+			"titre": "Le Magicien d'Oz",
+			"auteur": "L. Frank Baum",
+			"genre": "Fantasy",
+			"annee_parution": 1900,
+			"prix_euro": 10.99
+		},
+		{
+			"titre": "Le Livre de la jungle",
+			"auteur": "Rudyard Kipling",
+			"genre": "Fantasy",
+			"annee_parution": 1894,
+			"prix_euro": 9.99
+		},
+		{
+			"titre": "Le Monde de Narnia : Le Lion, la Sorcière blanche et l'Armoire magique",
+			"auteur": "Andrew Adamson",
+			"genre": "Fantasy",
+			"annee_parution": 2005,
+			"prix_euro": 12.99
+		},
+		{
+			"titre": "Jonathan Strange et Mr Norrell",
+			"auteur": "Susanna Clarke",
+			"genre": "Fantasy",
+			"annee_parution": 2004,
+			"prix_euro": 19.99
+		}
+	]
+}
