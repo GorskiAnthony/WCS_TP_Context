@@ -12,6 +12,40 @@
 
 ![Homepage](./docs/homepage.png)
 
+### 🎯 Target
+
+-   Apprendre :
+    -   le hook `useContext`
+    -   à créer un contexte
+    -   à créer un provider
+    -   à utiliser un contexte
+    -   à utiliser un provider
+
+Pour ce faire, nous allons changer le prix de nos livres en fonction de la devise choisie par l'utilisateur.
+
+### 💸 Devise
+
+```js
+const currency = {
+	EUR: {
+		symbol: "€",
+		rate: 1,
+	},
+	USD: {
+		symbol: "$",
+		rate: 1,08,
+	},
+	GBP: {
+		symbol: "£",
+		rate: 0.87,
+	},
+	JPY: {
+		symbol: "¥",
+		rate: 149.17,
+	},
+};
+```
+
 ## Install
 
 ```sh
