@@ -1,6 +1,10 @@
 import style from "./book.module.css";
+import { useCurrency } from "../../context/CurrencyContext";
 
 const Book = ({ titre, auteur, prix_euro, genre, annee_parution }) => {
+	const {
+		value: { currentCurrency },
+	} = useCurrency();
 	return (
 		<div className={style.book}>
 			<h3>{titre}</h3>
@@ -11,7 +15,8 @@ const Book = ({ titre, auteur, prix_euro, genre, annee_parution }) => {
 			/>
 			<div>
 				<p>
-					🖊️ {auteur} 💸 {prix_euro}
+					🖊️ {auteur} 💸 {currentCurrency.symbol}
+					{(prix_euro * currentCurrency.rate).toFixed(2)}
 				</p>
 			</div>
 			<div>
