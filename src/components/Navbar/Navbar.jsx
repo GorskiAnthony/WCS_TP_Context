@@ -15,6 +15,12 @@ const Navbar = () => {
 					<a href="!#">Coup de coeur</a>
 				</li>
 			</ul>
+			{/* <select name="currency" id="currency">
+				<option value="euro">EUR</option>
+				<option value="us_dollar">USD</option>
+				<option value=""></option>
+				<option value=""></option>
+			</select> */}
 		</nav>
 	);
 };
