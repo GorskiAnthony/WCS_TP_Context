@@ -1,6 +1,17 @@
+/**
+ * - Importé le hook qui va utiliser notre context
+ * - Notre context
+ */
+import { useCurrency } from "../../context/CurrencyContext";
 import style from "./book.module.css";
 
 const Book = ({ titre, auteur, prix_euro, genre, annee_parution }) => {
+	/**
+	 * Je souhaite extraire l'info "SYMBOL" du context DeviseContext
+	 */
+
+	const { currentCurrency } = useCurrency();
+
 	return (
 		<div className={style.book}>
 			<h3>{titre}</h3>
@@ -11,7 +22,11 @@ const Book = ({ titre, auteur, prix_euro, genre, annee_parution }) => {
 			/>
 			<div>
 				<p>
-					🖊️ {auteur} 💸 {prix_euro}
+					🖊️ {auteur} 💸{" "}
+					{new Intl.NumberFormat(currentCurrency.format, {
+						style: "currency",
+						currency: currentCurrency.currency,
+					}).format(prix_euro * currentCurrency.rate)}
 				</p>
 			</div>
 			<div>
